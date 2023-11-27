@@ -11,25 +11,20 @@ Combined Model: Considering mixture of both features mentioned above.
 Visualization of annual rainfall distribution for the Yerli catchment in the Tapi basin.
 
 
+![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/26be0f1a-db39-4e4e-bb62-a00be28090e0) 
+\Flowchart depicting the comprehensive methodology employed in the project.
 
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/715a70d6-a547-49fb-8dcc-3fdedd77ba27) \ 
-Time series plot for observed streamflow in the Yerli catchment.
+![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/cfed43d2-fc61-46ce-a56a-78e4ac8bfade)
+\Plot displaying the descending order correlation of variables with discharge in Yerli catchment.
 
+![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/8c9bdeba-480f-4fe3-857a-edbbc38de33b)
+\Top features with significant feature importance, identified through Extra Trees Regressor analysis for the Yerli catchment.
 
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/26be0f1a-db39-4e4e-bb62-a00be28090e0) \ 
-Flowchart depicting the comprehensive methodology employed in the project.
+![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/5d4a5d5e-1e31-4f0f-9497-9dbba3cb8bd0)
+\(a) Time series plot (b) Scatter plot for observed and predicted streamflow for the Y3 model for the training dataset utilizing M5 Model Tree (PS) for the Yerli catchment.
 
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/cfed43d2-fc61-46ce-a56a-78e4ac8bfade) \ 
-Plot displaying the descending order correlation of variables with discharge in Yerli catchment.
-
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/8c9bdeba-480f-4fe3-857a-edbbc38de33b) \ 
-Top features with significant feature importance, identified through Extra Trees Regressor analysis for the Yerli catchment.
-
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/5d4a5d5e-1e31-4f0f-9497-9dbba3cb8bd0) \ 
-(a) Time series plot (b) Scatter plot for observed and predicted streamflow for the Y3 model for the training dataset utilizing M5 Model Tree (PS) for the Yerli catchment.
-
-![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/c6b9a747-0ec4-4479-afaa-2a71fc81cc97) \ 
-(a) Time series plot (b) Scatter plot for observed and predicted streamflow for the Y3 model for the testing dataset utilizing M5 Model Tree (PS) for the Yerli catchment.
+![image](https://github.com/kallepalli-Deepak/DATA-DRIVEN-TECHNIQUES-FOR-STREAMFLOW-PREDICTION-/assets/144247554/c6b9a747-0ec4-4479-afaa-2a71fc81cc97)
+\(a) Time series plot (b) Scatter plot for observed and predicted streamflow for the Y3 model for the testing dataset utilizing M5 Model Tree (PS) for the Yerli catchment.
 
 
 For the Yerli catchment, the MT model exhibit better performance than RF and MLR models. However, the RF models outperform MLR models significantly. The Y3 MT model configuration yields the best results compared to the other RF and MT model configurations. The Y3 MT model exhibits lower errors (regarding RMSE, FSE, MAE and RSR measures), whereas it has higher predictive efficiency (regarding R2, NSE and POD). The peak flows in the training dataset are largely underpredicted, while those in the testing dataset show wide heterogeneity (except one peak which is well predicted).
